@@ -131,18 +131,6 @@
     50% { box-shadow: 0 0 100px 60px rgba(255,215,0,0.18), 0 0 200px 100px rgba(255,215,0,0.08); }
   }
 
-  /* Wolf silhouette */
-  .wolf-svg {
-    position: absolute;
-    right: 4%;
-    bottom: 0;
-    width: 420px;
-    opacity: 0.9;
-    animation: wolfHowl 3s ease-in-out infinite alternate;
-    transform-origin: bottom center;
-  }
-  @keyframes wolfHowl {
-    0% { transform: rotate(-1deg); }
     100% { transform: rotate(1deg); }
   }
 
@@ -436,7 +424,6 @@
     section { padding: 4rem 1.5rem; }
     .hero { padding: 0 1.5rem; }
     .moon { width: 200px; height: 200px; right: 2%; }
-    .wolf-svg { width: 240px; }
     .about-grid { grid-template-columns: 1fr; }
     .values-grid { grid-template-columns: 1fr; }
     .contact-inner { flex-direction: column; }
@@ -463,36 +450,15 @@
 <!-- Hero -->
 <section class="hero" id="home">
   <div class="moon"></div>
-<div style="position:absolute; right:4%; bottom:0; width:420px; height:500px; background:var(--night); z-index:3;"></div>
-  <!-- Wolf SVG silhouette -->
-  <svg class="wolf-svg" viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg" fill="rgba(10,10,15,0.95)" stroke="rgba(255,69,0,0.4)" stroke-width="1.5">
-    <!-- Simplified wolf howling silhouette -->
-    <path d="
-      M150,330
-      L140,280 L120,260 L100,240 L90,210 L95,190 L110,185 L108,160
-      L100,140 L90,115 L80,90 L70,60 L75,30 L90,20 L100,35 L105,55
-      L115,40 L120,20 L130,10 L145,5 L155,8
-      L160,25 L168,42 L174,22 L180,15 L192,18 L200,32 L196,55
-      L188,80 L178,100 L170,120 L168,145 L168,170
-      L180,185 L186,200 L182,225 L170,248 L162,268 L158,295 L155,330 Z
 
-      M90,190 L70,195 L55,205 L45,220 L50,240 L65,245 L80,235 L92,220 Z
-      M175,188 L195,192 L212,200 L220,218 L215,236 L200,242 L185,232 L176,215 Z
-
-      M78,260 L70,310 L75,330 L85,330 L88,305 L92,270 Z
-      M105,265 L100,315 L104,330 L115,330 L118,308 L115,270 Z
-      M155,272 L152,320 L156,330 L167,330 L170,308 L165,272 Z
-      M178,256 L176,305 L180,325 L190,325 L193,300 L188,258 Z
-    " />
-  </svg>
 
   <div class="hero-content">
     <div class="hero-tag">// First Tech Challenge · Team #23466</div>
     <h1 class="hero-title">
       THE<br>
-      <span class="outline">HOWL</span><br>
-      ERS
+      <span class="outline">HOWL</span>ERS
     </h1>
+
     <p class="hero-subtitle">Compete. Innovate. Dominate.</p>
     <div class="hero-stats">
       <div class="stat-item">
@@ -517,8 +483,8 @@
 <!-- Ticker -->
 <div class="howl-line">
   <span class="howl-line-inner">
-    THE HOWLERS &nbsp;·&nbsp; FTC #23466 &nbsp;·&nbsp; SPONSORED BY KABHOOM Robotics&nbsp;·&nbsp; COMPETE · INNOVATE · DOMINATE &nbsp;·&nbsp;
-    THE HOWLERS &nbsp;·&nbsp; FTC #23466 &nbsp;·&nbsp; SPONSORED BY KABHOOM Robotics&nbsp;·&nbsp; COMPETE · INNOVATE · DOMINATE &nbsp;·&nbsp;
+    THE HOWLERS &nbsp;·&nbsp; FTC #23466 &nbsp;·&nbsp; SPONSORED BY KHABHOOM &nbsp;·&nbsp; COMPETE · INNOVATE · DOMINATE &nbsp;·&nbsp;
+    THE HOWLERS &nbsp;·&nbsp; FTC #23466 &nbsp;·&nbsp; SPONSORED BY KHABHOOM &nbsp;·&nbsp; COMPETE · INNOVATE · DOMINATE &nbsp;·&nbsp;
   </span>
 </div>
 
@@ -612,7 +578,7 @@
   <p style="color:var(--dim); font-size:1.05rem; max-width:500px; margin:0 auto;">The Howlers are proud to be supported by a sponsor who believes in the next generation of innovators.</p>
   <div class="sponsor-box">
     <div class="sponsor-label">// Presenting Sponsor</div>
-    <div class="sponsor-name">KABHOOM</div>
+    <div class="sponsor-name">KHABHOOM</div>
     <div class="sponsor-desc">Fueling the future of robotics & technology.</div>
   </div>
   <p style="margin-top:2.5rem; color:var(--dim); font-size:0.9rem; font-family:'Share Tech Mono',monospace; letter-spacing:1px;">
@@ -644,7 +610,7 @@
         <div class="contact-ico"><div class="contact-ico-text">★</div></div>
         <div>
           <div class="contact-label">Sponsor</div>
-          <div class="contact-val">Kabhoom</div>
+          <div class="contact-val">Khabhoom</div>
         </div>
       </div>
     </div>
@@ -661,7 +627,7 @@
 
 <footer>
   <div class="footer-logo">THE HOWLERS</div>
-  <div class="footer-mono">FTC #23466 · SPONSORED BY KABHOOM</div>
+  <div class="footer-mono">FTC #23466 · SPONSORED BY KHABHOOM</div>
   <div class="footer-mono" style="color:rgba(136,136,153,0.4)">© 2025</div>
 </footer>
 
